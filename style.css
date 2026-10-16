@@ -243,6 +243,7 @@ footer {
 footer > div {
     flex: 1 1 200px;
     min-width: 0;
+    padding: auto;
 }
 
 footer img {
@@ -327,6 +328,7 @@ footer img {
     footer {
         flex-direction: column;
         text-align: center;
+        padding-top: 20px;
     }
 
     footer > div {
