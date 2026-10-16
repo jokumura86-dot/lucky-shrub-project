@@ -1,0 +1,233 @@
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    background-color: #ecde16;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.garden {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    background-color:transparent;
+    border: 5px solid #1f4429;
+}
+
+header img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.design,
+.landscape,
+.nursery {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+    padding-left: 12rem;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+a:link {
+    color: #1f4429;
+    text-decoration: none;
+    gap: 30px;
+}
+
+a:hover {
+    color:rgb(164, 13, 139);
+}
+
+section {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+article {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+article h2 {
+    font-size: 3rem;
+    text-align: center;
+    min-height: 3.6rem;
+    margin: 1rem 0;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #fcfdfc;
+    color: #e5c0c0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 225px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2cap;
+    transition: background-color 0.5s ease;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.cta:active {
+    background-color: #a40d8b;
+    color: #ffffff;
+    transform: translateY(1px);
+}
+
+.owners {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+.about {
+    display: flex;
+    text-align: left;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 30px auto;
+  background-color: transparent;
+  border-color: #1f4429;
+  border: solid 5px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  padding-left: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #1f4429;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #1f4429;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #8fe175;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.social img {
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+}
+
+footer > div {
+    flex: 1;
+
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding-top: 4rem;
+}
