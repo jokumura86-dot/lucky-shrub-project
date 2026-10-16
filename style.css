@@ -335,3 +335,63 @@ footer img {
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    body {
+        margin: 4rem 8%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2,
+    article h2 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        gap: 30px;
+    }
+
+    article {
+        flex: 1 1 300px;
+    }
+
+    .garden {
+        width: 100%;
+    }
+
+    .design,
+    .landscape,
+    .nursery {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+    }
+
+    .owners {
+        width: 40%;
+    }
+
+    header img {
+        width: 140px;
+    }
+
+    nav ul {
+        gap: 20px 40px;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    .form-container {
+        max-width: 600px;
+        padding: 40px;
+    }
+
+    footer {
+        gap: 30px;
+    }
+}
