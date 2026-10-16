@@ -25,11 +25,31 @@ h1 {
     text-align: center;
 }
 
-.garden {
+.garden,
+.design,
+.landscape,
+.nursery,
+.owners {
     display: block;
-    margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    margin: 0 auto;
+}
+
+.garden {
+    width: 100%;
+}
+
+.design,
+.landscape,
+.nursery {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.owners {
+    width: 50%;
 }
 
 h2 {
@@ -52,16 +72,6 @@ header img {
     height: auto;
     margin: 0 auto;
     padding: 1rem;
-}
-
-.design,
-.landscape,
-.nursery {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
 }
 
 footer img {
@@ -134,13 +144,6 @@ article h2 {
     background-color: #a40d8b;
     color: #ffffff;
     transform: translateY(1px);
-}
-
-.owners {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-    height: auto;
 }
 
 .about {
